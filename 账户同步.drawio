@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T11:34:13.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.56" etag="-NlPQJUVapLqwr5zEfcY" version="14.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-17T07:10:57.153Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.56" etag="m9RCRCo0EKfYbV-ahJRH" version="14.3.1" type="github" pages="3">
   <diagram name="同步主流程" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="2596" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UWlI8IGZeyLmM-aivyHW" name="server端设计">
-    <mxGraphModel dx="1527" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1527" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="gkvg0Ebi3rclY1Yoi8o3-0" />
         <mxCell id="gkvg0Ebi3rclY1Yoi8o3-1" parent="gkvg0Ebi3rclY1Yoi8o3-0" />
@@ -185,6 +185,92 @@
             </mxGeometry>
           </mxCell>
         </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FA2VOmL6_tckni5uSQmi" name="SCIM服务">
+    <mxGraphModel dx="1298" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="D3R0SiQpBgeObJIZlRDD-0" />
+        <mxCell id="D3R0SiQpBgeObJIZlRDD-1" parent="D3R0SiQpBgeObJIZlRDD-0" />
+        <object placeholders="1" c4Name="SCIM 接口服务" c4Type="ExecutionEnvironment" c4Application="Container" label="&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="Gw0QxM3X9Hsaz8eimxaJ-0">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];glass=0;dashed=1;sketch=0;fillColor=none;" vertex="1" parent="D3R0SiQpBgeObJIZlRDD-1">
+            <mxGeometry x="330" y="280" width="470" height="309" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Database" c4Technology="MySQL JNOS Schema" c4Description="用户数据" label="%c4Type%&lt;div&gt;[Container:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="EqDzyzYcy6MrU43oMex_-0">
+          <mxCell style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#438DD5;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#3C7FC0;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};dashed=1;sketch=0;" vertex="1" parent="D3R0SiQpBgeObJIZlRDD-1">
+            <mxGeometry x="350" y="650" width="160" height="140" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="企业云服务" c4Description="提供初始账号和维护账号的服务" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" c4Type="外部系统ECS" id="hRo1f4s-gAzXol6rNxyO-0">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#8A8A8A;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="D3R0SiQpBgeObJIZlRDD-1">
+            <mxGeometry x="620" y="665" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="OIDC服务" c4Type="Container" c4Technology="java、Spring MVC" c4Description="对外提供认证和授权服务，包括各种国际标准接入方式" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="7BxQZhCIt21mxllpnNpy-0">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3C7FC0;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];dashed=1;sketch=0;" vertex="1" parent="D3R0SiQpBgeObJIZlRDD-1">
+            <mxGeometry x="480" y="110" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="接口层" c4Type="Component" c4Technology="Spring MVC" c4Description="接受网络请求" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="7BxQZhCIt21mxllpnNpy-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];glass=0;dashed=1;sketch=0;" vertex="1" parent="D3R0SiQpBgeObJIZlRDD-1">
+            <mxGeometry x="620" y="470" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="SCIM协议的HTTP请求" c4Description="管理用户（新增、修改、删除）" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="ZxV5b_GfKxsv-Fga6nLn-0">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="D3R0SiQpBgeObJIZlRDD-1" source="hRo1f4s-gAzXol6rNxyO-0" target="7BxQZhCIt21mxllpnNpy-1">
+            <mxGeometry width="160" relative="1" as="geometry">
+              <mxPoint x="760" y="799" as="sourcePoint" />
+              <mxPoint x="760" y="512" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Interceptor" c4Type="Component" c4Technology="Spring" c4Description="验证权限" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="ZxV5b_GfKxsv-Fga6nLn-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];glass=0;dashed=1;sketch=0;" vertex="1" parent="D3R0SiQpBgeObJIZlRDD-1">
+            <mxGeometry x="620" y="300" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="appId、appSecret" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" c4Technology="oauth" id="ZxV5b_GfKxsv-Fga6nLn-2">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="D3R0SiQpBgeObJIZlRDD-1" source="7BxQZhCIt21mxllpnNpy-1" target="ZxV5b_GfKxsv-Fga6nLn-1">
+            <mxGeometry width="160" relative="1" as="geometry">
+              <mxPoint x="920" y="520" as="sourcePoint" />
+              <mxPoint x="1080" y="520" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="Java" c4Description="判断Client端认证情况" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="onI9qZZqhwjRNkRrcu7h-0">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="D3R0SiQpBgeObJIZlRDD-1" source="ZxV5b_GfKxsv-Fga6nLn-1" target="7BxQZhCIt21mxllpnNpy-0">
+            <mxGeometry width="160" relative="1" as="geometry">
+              <mxPoint x="680" y="457" as="sourcePoint" />
+              <mxPoint x="460" y="457" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="应用业务逻辑" c4Type="Component" c4Technology="ApplicationEvent" c4Description="application" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="onI9qZZqhwjRNkRrcu7h-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];glass=0;dashed=1;sketch=0;" vertex="1" parent="D3R0SiQpBgeObJIZlRDD-1">
+            <mxGeometry x="350" y="379.5" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="technology" c4Description="Description" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="onI9qZZqhwjRNkRrcu7h-2">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;entryX=1;entryY=0.5;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="D3R0SiQpBgeObJIZlRDD-1" source="ZxV5b_GfKxsv-Fga6nLn-1" target="onI9qZZqhwjRNkRrcu7h-1">
+            <mxGeometry width="160" relative="1" as="geometry">
+              <mxPoint x="1030" y="480" as="sourcePoint" />
+              <mxPoint x="1190" y="480" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JDBC" c4Description="数据读写" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="fmQdwn3GROL_O0wRnrgT-0">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="D3R0SiQpBgeObJIZlRDD-1" source="onI9qZZqhwjRNkRrcu7h-1" target="EqDzyzYcy6MrU43oMex_-0">
+            <mxGeometry width="160" relative="1" as="geometry">
+              <mxPoint x="760" y="512" as="sourcePoint" />
+              <mxPoint x="460" y="682" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="fmQdwn3GROL_O0wRnrgT-1" value="Component级示意图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;dashed=1;sketch=0;fontSize=36;" vertex="1" parent="D3R0SiQpBgeObJIZlRDD-1">
+          <mxGeometry x="367.5" y="18" width="385" height="82" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
