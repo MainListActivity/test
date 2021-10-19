@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T13:06:35.502Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="TdebHZM56i8vY-RvFThO" version="15.2.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-19T13:18:51.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="OYKpAKACZDj3NLN8Zr8_" version="15.2.1" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="产品可见人">
     <mxGraphModel dx="1758" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -113,7 +113,7 @@
         <mxCell id="P_NB4XiCEfyopNCnFBW8-19" value="控制台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="36CsUNMJiCuZL-RpnFbf-1">
           <mxGeometry x="346.5" y="150" width="100" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="8P5LRwBHPNse5m8mTont-22" value="查询产品角色下的功能购买情况" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="36CsUNMJiCuZL-RpnFbf-1" source="P_NB4XiCEfyopNCnFBW8-19" target="8P5LRwBHPNse5m8mTont-21">
+        <mxCell id="8P5LRwBHPNse5m8mTont-22" value="查询产品角色下的功能购买情况accountFunction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="36CsUNMJiCuZL-RpnFbf-1" source="P_NB4XiCEfyopNCnFBW8-19" target="8P5LRwBHPNse5m8mTont-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="650" y="240" />
@@ -227,6 +227,65 @@
             <mxPoint x="608.25" y="460" as="targetPoint" />
             <Array as="points">
               <mxPoint x="573.25" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hAf2fEdSXMvlMwzbra6x" name="成员列表查询">
+    <mxGraphModel dx="1758" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="z4E0YNsNfiUOdOAbEBTZ-0" />
+        <mxCell id="z4E0YNsNfiUOdOAbEBTZ-1" parent="z4E0YNsNfiUOdOAbEBTZ-0" />
+        <mxCell id="YmawpCyGKDizvMVBAwV9-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=none;" vertex="1" parent="z4E0YNsNfiUOdOAbEBTZ-1">
+          <mxGeometry width="810" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="YmawpCyGKDizvMVBAwV9-1" value="成员列表查询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=22;" vertex="1" parent="z4E0YNsNfiUOdOAbEBTZ-1">
+          <mxGeometry x="346.5" y="10" width="157" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YmawpCyGKDizvMVBAwV9-2" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="z4E0YNsNfiUOdOAbEBTZ-1">
+          <mxGeometry x="130" y="150" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="YmawpCyGKDizvMVBAwV9-3" value="控制台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="z4E0YNsNfiUOdOAbEBTZ-1">
+          <mxGeometry x="346.5" y="150" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="YmawpCyGKDizvMVBAwV9-5" value="账号能力" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="z4E0YNsNfiUOdOAbEBTZ-1">
+          <mxGeometry x="560" y="150" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="YmawpCyGKDizvMVBAwV9-6" value="查询成员列表" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;fontSize=12;fontColor=default;" edge="1" parent="z4E0YNsNfiUOdOAbEBTZ-1" source="YmawpCyGKDizvMVBAwV9-2" target="YmawpCyGKDizvMVBAwV9-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="186.5" y="230" as="sourcePoint" />
+            <mxPoint x="346.5" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YmawpCyGKDizvMVBAwV9-13" value="查询成员" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;fontSize=12;fontColor=default;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="z4E0YNsNfiUOdOAbEBTZ-1" source="YmawpCyGKDizvMVBAwV9-3" target="YmawpCyGKDizvMVBAwV9-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="220" as="sourcePoint" />
+            <mxPoint x="606.5" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520.5" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lJjRI6UudYPZfuLjrfkY-0" value="查询成员在当前产品下的角色" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;fontSize=12;fontColor=default;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="z4E0YNsNfiUOdOAbEBTZ-1" source="YmawpCyGKDizvMVBAwV9-3" target="YmawpCyGKDizvMVBAwV9-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="393.25" y="260" as="sourcePoint" />
+            <mxPoint x="606.75" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="517.75" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lJjRI6UudYPZfuLjrfkY-2" value="返回当前产品下的带角色成员列表" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;dashed=1;fontSize=12;fontColor=default;" edge="1" parent="z4E0YNsNfiUOdOAbEBTZ-1" source="YmawpCyGKDizvMVBAwV9-5" target="YmawpCyGKDizvMVBAwV9-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint" />
+            <mxPoint x="660" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
