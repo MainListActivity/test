@@ -1,92 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T03:39:24.134Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="pfcEuF-tv60Edby2SLTb" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-19T03:42:29.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="J3lx87QQBg55Aj5x3XdI" version="15.2.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="产品可见人">
     <mxGraphModel dx="1758" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JlET_jCyeq1pOfHJXYSH-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF6666;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry width="850" height="640" as="geometry" />
+        </mxCell>
         <object placeholders="1" c4Name="产品" c4Type="Software System" c4Description="产品配置" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#8A8A8A;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="700" y="230" width="160" height="110.00000000000001" as="geometry" />
+            <mxGeometry x="670" y="260" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="idaas" c4Type="Component" c4Technology="technology" c4Description="departmentService" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-4">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="390" y="230" width="160" height="110.00000000000001" as="geometry" />
+            <mxGeometry x="360" y="260" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="jsf" c4Description="查询部门树" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-5">
-          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" edge="1" parent="1" source="JlET_jCyeq1pOfHJXYSH-1" target="JlET_jCyeq1pOfHJXYSH-4">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#FF6666;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" edge="1" parent="1" source="JlET_jCyeq1pOfHJXYSH-1" target="JlET_jCyeq1pOfHJXYSH-4">
             <mxGeometry width="160" relative="1" as="geometry">
-              <mxPoint x="480" y="180" as="sourcePoint" />
-              <mxPoint x="640" y="180" as="targetPoint" />
+              <mxPoint x="450" y="210" as="sourcePoint" />
+              <mxPoint x="610" y="210" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="jsf" c4Description="查询当前登录用户所在部门" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-8">
-          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" edge="1" parent="1" source="JlET_jCyeq1pOfHJXYSH-13" target="JlET_jCyeq1pOfHJXYSH-4">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=2;fontColor=#FF6666;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" edge="1" parent="1" source="JlET_jCyeq1pOfHJXYSH-13" target="JlET_jCyeq1pOfHJXYSH-4">
             <mxGeometry width="160" relative="1" as="geometry">
-              <mxPoint x="290" y="600" as="sourcePoint" />
-              <mxPoint x="650" y="653.1818181818182" as="targetPoint" />
+              <mxPoint x="260" y="630" as="sourcePoint" />
+              <mxPoint x="620" y="683.1818181818182" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
         <object placeholders="1" c4Name="USER" c4Type="Person" c4Description="控制台用户" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-9">
           <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="1">
-            <mxGeometry x="725" width="110.00000000000001" height="140" as="geometry" />
+            <mxGeometry x="695" y="30" width="110.00000000000001" height="140" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="http" c4Description="创建产品" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-10">
           <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" edge="1" parent="1" source="JlET_jCyeq1pOfHJXYSH-9" target="JlET_jCyeq1pOfHJXYSH-1">
             <mxGeometry width="160" relative="1" as="geometry">
-              <mxPoint x="850" y="450" as="sourcePoint" />
-              <mxPoint x="1010" y="450" as="targetPoint" />
+              <mxPoint x="820" y="480" as="sourcePoint" />
+              <mxPoint x="980" y="480" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
         <object placeholders="1" c4Name="产品" c4Type="Software System" c4Description="产品服务层" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-11">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#8A8A8A;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="700" y="400" width="160" height="110.00000000000001" as="geometry" />
+            <mxGeometry x="670" y="430" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="jsf" c4Description="保存产品" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-12">
           <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" edge="1" parent="1" source="JlET_jCyeq1pOfHJXYSH-1" target="JlET_jCyeq1pOfHJXYSH-11">
             <mxGeometry width="160" relative="1" as="geometry">
-              <mxPoint x="710" y="295" as="sourcePoint" />
-              <mxPoint x="610" y="295" as="targetPoint" />
+              <mxPoint x="680" y="325" as="sourcePoint" />
+              <mxPoint x="580" y="325" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
         <object placeholders="1" c4Name="产品" c4Type="Software System" c4Description="产品配置" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-13">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#8A8A8A;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="50" y="230" width="160" height="110.00000000000001" as="geometry" />
+            <mxGeometry x="20" y="260" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="USER" c4Type="Person" c4Description="控制台用户" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-14">
           <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="1">
-            <mxGeometry x="75" width="110.00000000000001" height="140" as="geometry" />
+            <mxGeometry x="45" y="30" width="110.00000000000001" height="140" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="http" c4Description="获取产品列表" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-15">
           <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" edge="1" parent="1" source="JlET_jCyeq1pOfHJXYSH-14" target="JlET_jCyeq1pOfHJXYSH-13">
             <mxGeometry width="160" relative="1" as="geometry">
-              <mxPoint x="200" y="450" as="sourcePoint" />
-              <mxPoint x="360" y="450" as="targetPoint" />
+              <mxPoint x="170" y="480" as="sourcePoint" />
+              <mxPoint x="330" y="480" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
         <object placeholders="1" c4Name="产品" c4Type="Software System" c4Description="产品服务层" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-16">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#8A8A8A;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="50" y="400" width="160" height="110.00000000000001" as="geometry" />
+            <mxGeometry x="20" y="430" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="jsf" c4Description="根据部门id查询产品" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="JlET_jCyeq1pOfHJXYSH-17">
           <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" edge="1" parent="1" source="JlET_jCyeq1pOfHJXYSH-13" target="JlET_jCyeq1pOfHJXYSH-16">
             <mxGeometry width="160" relative="1" as="geometry">
-              <mxPoint x="60" y="295" as="sourcePoint" />
-              <mxPoint x="-40" y="295" as="targetPoint" />
+              <mxPoint x="30" y="325" as="sourcePoint" />
+              <mxPoint x="-70" y="325" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
+        <mxCell id="JlET_jCyeq1pOfHJXYSH-19" value="产品可见人" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="363" y="10" width="125" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
