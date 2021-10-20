@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T07:10:08.964Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="szapE8DFmey7LIRl3YDl" version="15.2.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-20T08:27:07.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="xqPDEnqw7tEOTZRyysHr" version="15.2.1" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="部门成员">
     <mxGraphModel dx="2608" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -280,7 +280,7 @@
         <mxCell id="Lw-cmZCCrCGT3gQhGZ3B-56" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Lw-cmZCCrCGT3gQhGZ3B-55">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Lw-cmZCCrCGT3gQhGZ3B-57" value="user_name char(50) NOT NULL 组织下的用户名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#6c8ebf;" vertex="1" parent="Lw-cmZCCrCGT3gQhGZ3B-55">
+        <mxCell id="Lw-cmZCCrCGT3gQhGZ3B-57" value="alias_name char(50) NOT NULL 组织下的用户名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#6c8ebf;" vertex="1" parent="Lw-cmZCCrCGT3gQhGZ3B-55">
           <mxGeometry x="30" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Lw-cmZCCrCGT3gQhGZ3B-63" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Lw-cmZCCrCGT3gQhGZ3B-51">
@@ -289,7 +289,7 @@
         <mxCell id="Lw-cmZCCrCGT3gQhGZ3B-64" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="Lw-cmZCCrCGT3gQhGZ3B-63">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Lw-cmZCCrCGT3gQhGZ3B-65" value="gender int NOT NULL 性别" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#6c8ebf;" vertex="1" parent="Lw-cmZCCrCGT3gQhGZ3B-63">
+        <mxCell id="Lw-cmZCCrCGT3gQhGZ3B-65" value="gender int NULL 性别 0保密 1 男 2 女" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#6c8ebf;" vertex="1" parent="Lw-cmZCCrCGT3gQhGZ3B-63">
           <mxGeometry x="30" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Lw-cmZCCrCGT3gQhGZ3B-66" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Lw-cmZCCrCGT3gQhGZ3B-51">
