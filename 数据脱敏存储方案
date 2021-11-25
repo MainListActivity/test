@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T06:47:54.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="0NR6RoQbJySekcSvqfP7" version="15.8.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-25T06:55:53.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="sMzA8RPmSHh3DyoAY4oi" version="15.8.6" type="github" pages="2">
   <diagram id="rW3_SkSMjzt-MD6hRIAO" name="老方案">
     <mxGraphModel dx="1758" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -256,26 +256,32 @@
         <mxCell id="mxcgVJa6m8gkTMjngHzz-3" value="&lt;font style=&quot;font-size: 25px&quot;&gt;应用层&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
           <mxGeometry x="220" y="155" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mxcgVJa6m8gkTMjngHzz-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;JNOS控制台&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;fillColor=#FF1C1C;strokeColor=none;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
+        <mxCell id="mxcgVJa6m8gkTMjngHzz-4" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#ffffff&quot;&gt;JNOS控制台&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;fillColor=#CC0000;strokeColor=none;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
           <mxGeometry x="390" y="100" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mxcgVJa6m8gkTMjngHzz-5" value="&lt;font style=&quot;font-size: 14px&quot;&gt;JNOS开放平台&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;fillColor=#FF1C1C;strokeColor=none;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
+        <mxCell id="mxcgVJa6m8gkTMjngHzz-5" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#ffffff&quot;&gt;JNOS开放平台&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;fillColor=#CC0000;strokeColor=none;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
           <mxGeometry x="540" y="100" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mxcgVJa6m8gkTMjngHzz-6" value="&lt;font style=&quot;font-size: 14px&quot;&gt;商业化系统&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;fillColor=#FF1C1C;strokeColor=none;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
+        <mxCell id="mxcgVJa6m8gkTMjngHzz-6" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-size: 16px&quot;&gt;超级终端&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;fillColor=#CC0000;strokeColor=none;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
           <mxGeometry x="680" y="100" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mxcgVJa6m8gkTMjngHzz-7" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;strokeColor=none;fillColor=#C9C9C9;fontColor=#333333;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
+        <mxCell id="mxcgVJa6m8gkTMjngHzz-7" value="&lt;font style=&quot;font-size: 13px&quot;&gt;通讯录敏感信息编辑&lt;br&gt;成员敏感信息查询&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;strokeColor=none;fillColor=#C9C9C9;fontColor=#333333;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
           <mxGeometry x="390" y="150" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mxcgVJa6m8gkTMjngHzz-8" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;strokeColor=none;fillColor=#C9C9C9;fontColor=#333333;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
           <mxGeometry x="540" y="150" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mxcgVJa6m8gkTMjngHzz-9" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;strokeColor=none;fillColor=#C9C9C9;fontColor=#333333;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
+        <mxCell id="mxcgVJa6m8gkTMjngHzz-9" value="&lt;span style=&quot;font-size: 13px&quot;&gt;通讯录敏感信息查询&lt;/span&gt;&lt;br style=&quot;font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;成员名片查询&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;strokeColor=none;fillColor=#C9C9C9;fontColor=#333333;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
           <mxGeometry x="680" y="150" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="dbpkVYzjsPVuJ8C_tQwb-0" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
           <mxGeometry x="210" y="260" width="790" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dbpkVYzjsPVuJ8C_tQwb-1" value="&lt;span style=&quot;color: rgb(255 , 255 , 255) ; font-size: 16px&quot;&gt;商业化系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;fillColor=#CC0000;strokeColor=none;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
+          <mxGeometry x="820" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dbpkVYzjsPVuJ8C_tQwb-2" value="&lt;font style=&quot;font-size: 13px&quot;&gt;脱敏数据查询&lt;br&gt;明文查询&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;strokeColor=none;fillColor=#C9C9C9;fontColor=#333333;" vertex="1" parent="mxcgVJa6m8gkTMjngHzz-1">
+          <mxGeometry x="820" y="150" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
