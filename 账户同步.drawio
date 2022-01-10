@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T10:25:53.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="jy3--cXWuGJyYgAI02Zh" version="16.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-10T10:26:03.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="lzSXfRSRld5c5IcJpdOF" version="16.2.4" type="github" pages="3">
   <diagram name="同步主流程" id="12e1b939-464a-85fe-373e-61e167be1490">
     <mxGraphModel dx="1758" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -263,9 +263,6 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="fmQdwn3GROL_O0wRnrgT-1" value="Component级示意图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;dashed=1;sketch=0;fontSize=36;fontFamily=京东朗正体;" parent="D3R0SiQpBgeObJIZlRDD-1" vertex="1">
-          <mxGeometry x="367.5" y="18" width="385" height="82" as="geometry" />
-        </mxCell>
         <object placeholders="1" c4Name="IDaaS能力层" c4Type="Container" c4Technology="java" c4Description="能力层提供基础的账户增删改查能力" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="XnooqoSXMZN1Q04J8Q1x-0">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#C9C9C9;fontColor=#000000;align=center;arcSize=10;strokeColor=none;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];glass=0;dashed=1;sketch=0;fontFamily=京东朗正体;" parent="D3R0SiQpBgeObJIZlRDD-1" vertex="1">
             <mxGeometry x="350" y="665" width="160" height="110.00000000000001" as="geometry" />
