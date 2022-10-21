@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-21T10:13:00.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="JDowO58T3gseO-rtv9Xd" version="20.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-21T10:16:17.426Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="ujQLp97LwRvxix0cNVw6" version="20.4.2" type="github" pages="3">
   <diagram id="n9ad1uKtAgGhJWYQroDs" name="总体流程">
     <mxGraphModel dx="1758" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -220,11 +220,35 @@
         <mxCell id="YFWtP4O9uLbU-tenDTHc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YFWtP4O9uLbU-tenDTHc-10" target="YFWtP4O9uLbU-tenDTHc-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="aJJGLA4Wfceu2NNNn8MP-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YFWtP4O9uLbU-tenDTHc-10" target="aJJGLA4Wfceu2NNNn8MP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aJJGLA4Wfceu2NNNn8MP-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YFWtP4O9uLbU-tenDTHc-10" target="aJJGLA4Wfceu2NNNn8MP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aJJGLA4Wfceu2NNNn8MP-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YFWtP4O9uLbU-tenDTHc-10" target="aJJGLA4Wfceu2NNNn8MP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YFWtP4O9uLbU-tenDTHc-10" value="流程管理" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="230" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="aJJGLA4Wfceu2NNNn8MP-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YFWtP4O9uLbU-tenDTHc-12" target="aJJGLA4Wfceu2NNNn8MP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YFWtP4O9uLbU-tenDTHc-12" value="创建流程模板" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="410" y="384" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJJGLA4Wfceu2NNNn8MP-1" value="启用禁用" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJJGLA4Wfceu2NNNn8MP-3" value="版本控制" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJJGLA4Wfceu2NNNn8MP-5" value="表单字段设计" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJJGLA4Wfceu2NNNn8MP-7" value="生成模板Code" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
