@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T04:09:06.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="f6LCUH9xBOIUD9MjjoVj" version="20.4.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-24T04:10:29.200Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="I0EZPMiJmMVCsLxiOT0y" version="20.4.2" type="github" pages="4">
   <diagram id="n9ad1uKtAgGhJWYQroDs" name="总体流程">
     <mxGraphModel dx="1758" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -267,10 +267,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RyMed1Hpa0T6xbntwgzh-1" value="端到端" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RyMed1Hpa0T6xbntwgzh-2" value="应用授权" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="1010" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RyMed1Hpa0T6xbntwgzh-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RyMed1Hpa0T6xbntwgzh-3" target="RyMed1Hpa0T6xbntwgzh-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -290,11 +290,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RyMed1Hpa0T6xbntwgzh-3" value="流程模板" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uMyvirp5ZZLfZBX4M7uT-10" target="uMyvirp5ZZLfZBX4M7uT-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="640" as="sourcePoint" />
+            <mxPoint x="520" y="620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-7" value="accountId+productCode&lt;br&gt;保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uMyvirp5ZZLfZBX4M7uT-6">
@@ -306,19 +306,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RyMed1Hpa0T6xbntwgzh-6" value="开始设计" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-2" value="模板禁用" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="860" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-5" value="流程定义" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uMyvirp5ZZLfZBX4M7uT-8" target="uMyvirp5ZZLfZBX4M7uT-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-8" value="配置流程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uMyvirp5ZZLfZBX4M7uT-10" target="uMyvirp5ZZLfZBX4M7uT-12">
           <mxGeometry relative="1" as="geometry" />
@@ -333,25 +333,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-10" value="配置环节" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-12" value="字段访问权限" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="461" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="441" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-14" value="审批人/角色/部门" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="541" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="521" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-16" value="允许的操作&lt;br&gt;（加签...）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="621" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="601" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-18" value="会签/或签" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="701" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="681" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uMyvirp5ZZLfZBX4M7uT-20" value="查询设计历史" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-7gJnDKweaBpX2N2hMtG-1" value="模板表单" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-7gJnDKweaBpX2N2hMtG-5" value="拉取表单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-7gJnDKweaBpX2N2hMtG-4" target="uMyvirp5ZZLfZBX4M7uT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-7gJnDKweaBpX2N2hMtG-4" value="外部系统" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
