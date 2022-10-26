@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T08:10:06.364Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="Fa2_ZwIeCYAZapZaxH6f" version="20.4.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-10-26T10:07:43.756Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="T_nEC_fRWktOwigofQD2" version="20.4.2" type="github" pages="7">
   <diagram id="n9ad1uKtAgGhJWYQroDs" name="总体流程">
     <mxGraphModel dx="1758" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -583,22 +583,27 @@
         <mxCell id="aJJGLA4Wfceu2NNNn8MP-7" value="生成模板Code" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1ef1Cs02ydBqQjRgSJeN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1ef1Cs02ydBqQjRgSJeN-1" target="1ef1Cs02ydBqQjRgSJeN-3">
+        <mxCell id="1ef1Cs02ydBqQjRgSJeN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1ef1Cs02ydBqQjRgSJeN-1" target="YFWtP4O9uLbU-tenDTHc-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1ef1Cs02ydBqQjRgSJeN-6" value="productCode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1ef1Cs02ydBqQjRgSJeN-4">
+        <mxCell id="1ef1Cs02ydBqQjRgSJeN-6" value="productCode+appCode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1ef1Cs02ydBqQjRgSJeN-4">
           <mxGeometry x="-0.3469" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1ef1Cs02ydBqQjRgSJeN-1" value="创建产品/启用流程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1ef1Cs02ydBqQjRgSJeN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1ef1Cs02ydBqQjRgSJeN-3" target="YFWtP4O9uLbU-tenDTHc-10">
+        <mxCell id="qDFRgCR65G98cedCTSYE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=12;" edge="1" parent="1" source="1ef1Cs02ydBqQjRgSJeN-1" target="1ef1Cs02ydBqQjRgSJeN-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qDFRgCR65G98cedCTSYE-2" value="appCode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="qDFRgCR65G98cedCTSYE-1">
+          <mxGeometry x="-0.32" y="1" relative="1" as="geometry">
+            <mxPoint x="22" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ef1Cs02ydBqQjRgSJeN-1" value="创建产品/流程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="1ef1Cs02ydBqQjRgSJeN-3" value="创建flowable应用" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="299" width="120" height="60" as="geometry" />
+          <mxGeometry x="730" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aoXJnSl54ojMYefphleZ-1" value="配置业务推送表单映射关系" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="540" y="730" width="120" height="60" as="geometry" />
