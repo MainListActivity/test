@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T12:15:39.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" version="20.6.2" etag="dBILEQvuYzmcDNL8Vi5d" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T02:19:43.397Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" version="20.6.2" etag="CmpPwL8GnTTxX19gBgnj" type="github" pages="2">
   <diagram id="V19TMdTalA6-rqnnKiRw" name="结构说明">
     <mxGraphModel dx="1711" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -55,6 +55,14 @@
         <mxCell id="EUcMxrNNhy1xfR_mbQPF-22" value="数据采集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="EUcMxrNNhy1xfR_mbQPF-1">
           <mxGeometry x="275" y="190" width="80" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ObJHUn_SxOFFukdo_p-v" name="流程说明">
+    <mxGraphModel dx="1711" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
