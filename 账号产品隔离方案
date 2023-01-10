@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T06:36:08.601Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76" etag="xd2HBH5m2EiwRKOxImPn" version="20.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-10T01:31:14.645Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.76" etag="EyOqWydfoWrL3l9XkrXy" version="20.8.3" type="github" pages="4">
   <diagram id="DN0MD7GsP28I-qbsZtZb" name="第 1 页">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         </mxCell>
         <mxCell id="EEa7tUwO50pyT4f8FhLo-5" value="购买产品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EEa7tUwO50pyT4f8FhLo-4" vertex="1" connectable="0">
           <mxGeometry x="-0.16" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EEa7tUwO50pyT4f8FhLo-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
@@ -133,6 +133,20 @@
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="c27m-7lqU5uMBITt3d6z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="c27m-7lqU5uMBITt3d6z-1" target="c27m-7lqU5uMBITt3d6z-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c27m-7lqU5uMBITt3d6z-1" value="读取产品配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c27m-7lqU5uMBITt3d6z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c27m-7lqU5uMBITt3d6z-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c27m-7lqU5uMBITt3d6z-2" value="是否独立组织" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
