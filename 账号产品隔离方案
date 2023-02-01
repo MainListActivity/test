@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T06:18:26.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="xOrD8toERWHxenhOLH20" version="20.8.13" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-01T08:56:33.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="x1Tykn1XP8P5DiEHmjTf" version="20.8.13" type="github" pages="7">
   <diagram id="DN0MD7GsP28I-qbsZtZb" name="第 1 页">
     <mxGraphModel dx="1711" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -464,6 +464,36 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vPufMwL_TzMgt1wslM4u-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPufMwL_TzMgt1wslM4u-1" target="vPufMwL_TzMgt1wslM4u-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vPufMwL_TzMgt1wslM4u-1" value="查询履约情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPufMwL_TzMgt1wslM4u-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="159.5" y="264" as="sourcePoint" />
+            <mxPoint x="159.5" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPufMwL_TzMgt1wslM4u-3" value="accountId[]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPufMwL_TzMgt1wslM4u-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vPufMwL_TzMgt1wslM4u-4" target="vPufMwL_TzMgt1wslM4u-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vPufMwL_TzMgt1wslM4u-4" value="读取产品配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPufMwL_TzMgt1wslM4u-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vPufMwL_TzMgt1wslM4u-7" target="vPufMwL_TzMgt1wslM4u-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vPufMwL_TzMgt1wslM4u-7" value="创建虚拟组织" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPufMwL_TzMgt1wslM4u-9" value="复制真实组织的部门&amp;amp;员工" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
